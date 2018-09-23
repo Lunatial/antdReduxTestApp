@@ -1,0 +1,11 @@
+.idea
+/idea
+/.idea/
+
+# dependencies
+/node_modules
+
+
+# production
+/build
+

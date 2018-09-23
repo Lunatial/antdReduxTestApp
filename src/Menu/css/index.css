@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+h1{
+    font: 5em/1 Bangers, sans-serif;
+    margin-top: 24px;
+    padding: 48px 0 30px 0;
+    text-align: center;
+    -webkit-text-stroke: .025em #fff; /* The white stroke, first from inside out */
+    -webkit-text-fill-color: #444; /* Make the inner text white */
+    text-shadow: /* These four shadows create the most outer stroke */
+            -.025em -.025em 0 #444,
+            .025em -.025em 0 #444,
+            -.025em  .025em 0 #444,
+            .025em  .025em 0 #444;
+    color: #fff;
+}
+
+
+/*color: 'white',*/
+/*fontSize: '3rem',*/
+/*textAlign: 'center',*/
+/*verticalAlign: 'middle',*/
+/*lineHeight: '90px',*/
+/*textShadow: "-1px 0 0 #000000, 1px 1px 0 #000000, 2px -1px 0 #000000, 3px 0 0 #000000"*/
+
+.vertical-timeline-element-date {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.vertical-timeline-element-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element-icon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+.vertical-timeline-element--education > div > .vertical-timeline-element-content{
+    border-top: rgb(233, 30, 99) solid 2px;
+}
+
+.vertical-timeline-element--work > div > .vertical-timeline-element-content{
+    border-top: #1088e9 solid 2px;
+}
+
+.vertical-timeline-element--publication > div > .vertical-timeline-element-content{
+    border-top: #1fab05 solid 2px;
+}
+
+.vertical-timeline-element--conference > div > .vertical-timeline-element-content{
+    border-top: #ff980b solid 2px;
+}
+
+
+/*Ez a behuzott*/
+
+.vertical-timeline {
+    width: 60%;
+    /*max-width: 1170px;*/
+    margin: 2em auto;
+    position: relative;
+    padding: 2em 0;
+}
+.vertical-timeline::after {
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.vertical-timeline::before {
+    /* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: white;
+}
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 90%;
+    }
+    .vertical-timeline:before {
+        left: 50%;
+        margin-left: -2px;
+    }
+}
+
+/*Ez a behuzott*/
+
+
