@@ -21,11 +21,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "ava",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "ava": "^0.25.0",
-    "nightmare": "^3.0.1"
   }
 }
