@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import React from "react";
 import './css/index.css';
 
-import {Icon, BackTop} from 'antd';
+import {Icon,} from 'antd';
 
 class Timeline extends React.Component {
     render() {
